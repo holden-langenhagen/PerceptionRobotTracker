@@ -1,5 +1,19 @@
-# Ignore everything except the notebook and the project description
-/*
-!/.gitignore
-!/*.ipynb
-!/*.pdf
+# Videos
+/0_calib/
+/1_no_obstacle/
+/2_obstacle/
+/3_curved_bend/
+/4_circle/
+
+# Course material
+/exercises_solutions/
+/lectures/
+/weekly_projects/
+
+# Editor settings
+/.vscode/
+
+# Notebook / Python clutter
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
